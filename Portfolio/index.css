@@ -1,0 +1,212 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.but{
+    list-style-type: none;
+    margin:20px;
+    font-size: 25px;
+    font-weight:300;
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.but a{
+    text-decoration: none;
+    color: black;
+}
+
+#Home{
+    display:flex;
+    flex-direction: row;
+    margin:9rem;
+    justify-content: center;
+
+    
+
+}
+
+#home-left{
+    display:block;
+    width:50%;
+    margin:30px;
+}
+#home-left h3{
+    margin:20px;
+    font-size:30px ;
+}
+#home-left h1{
+    margin:20px;
+    font-size:60px;
+}
+#home-left p{
+    margin:20px;
+}
+#resume{
+    margin:20px;
+    width:83px;
+    height:37px;
+    background-color: black;
+    color:white;
+    border-radius: 3px;
+    font-size:20px;
+}
+#home-right img{
+    width:400px;
+    height:auto;
+    object-fit: contain;
+
+}
+
+#Skills{
+    display:flex;
+    flex-direction: row;
+    background-color:darksalmon;
+    height:42rem;
+    align-items: center;
+   
+}
+
+#skill-left{
+    margin:20px;
+    width:50%;
+    height:auto;
+    
+}
+
+#skill-left h1{
+    margin-bottom: 30px ;
+    margin:20px;
+    font-size:80px;
+    font-weight: 200;
+}
+
+#skill-left p{
+    margin:20px;
+    font-size :20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#skill-right{
+    width:50%;
+    margin:20px;
+    list-style-type: none;
+}
+
+.sk_des{
+    margin:20px;
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+}
+
+.sk_des p{
+    width:211px; 
+    height:92px;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight:300;
+}
+
+hr{
+    border:none;
+    margin:20px 0px;
+    height:3px;
+    background-color: black;
+}
+
+
+
+#p_des{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.p_item{
+    margin:106px;
+    list-style-type: none;
+    height:267px;
+    font-size:30px;
+}
+
+.p_item img{
+    width:350px;
+    height:auto;
+}
+
+#porject1{
+    margin-top:300px;
+}
+#porject2{
+    margin-top:200px;
+}
+#porject3{
+    margin-top:100px;
+}
+
+#Title{
+    margin:20px;
+    font-size: 60px;
+    font-weight:600;
+}
+
+
+#c_des{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:12rem;
+    margin-bottom:100px;
+}
+
+#c_des h1,h3,h5{
+    margin:20px;
+    font-weight:600;
+}
+
+#c_des h1{
+    font-size:90px;
+    text-align: center;
+}
+
+#c_des h3{
+    font-size:60px;
+}
+
+#c_des h5{
+    font-size:30px;
+}
+
+#img_des{
+    display:flex;
+    justify-content: center;
+    background-color: grey;
+    padding-bottom:30px;
+}
+
+#img_des img{
+    border-radius: 30px;
+    width:20px;
+    height:auto
+}
+
+
+#Contact_Us{
+    background-color:gray;
+    display:flex;
+}
+
+
+
+
